@@ -25,19 +25,15 @@ This tool leverages the Retrieval Augmented Generation (RAG) technique, integrat
 ## Setup
 
 1. Obtain an OpenAI API key from [OpenAI](https://www.openai.com/).
-2. Replace `'VOTRE_CLEF_OPENAI_ici'` in the code with your actual OpenAI API key:
-
-    ```python
-    os.environ['OPENAI_API_KEY'] = 'YOUR_OPENAI_API_KEY_HERE'
-    ```
+2. Set OPENAI_API_KEY in .env file
 
 ## Usage
 
-1. Save the provided code in a file, for example, `demo_RAG.py`.
+1. Save the provided code in a file, for example, `main.py`.
 2. Run the script using the following command:
 
     ```bash
-    streamlit run demo_RAG.py
+    streamlit run main.py
     ```
 
 3. The Streamlit interface will open in your web browser.
@@ -56,7 +52,7 @@ This tool leverages the Retrieval Augmented Generation (RAG) technique, integrat
 1. Run the application:
 
     ```bash
-    streamlit run demo_RAG.py
+    streamlit run main.py
     ```
 
 2. Upload a PDF document.
